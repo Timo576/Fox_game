@@ -3,7 +3,7 @@
 Code to mess around with strategies for AlexCheddar's fox game.
 Conclusion: strategy does not matter. 
 
-Sa-to-ri's explanation:
+# Sa-to-ri's explanation:
 
 "I think this should be a generally correct argument:
 
@@ -25,6 +25,7 @@ Note that the divisors and the dividends are all multiplied together, and that y
 
 The conclusion we can draw from this, is that for any board state, the probability of placing any specific tile on any specific square is always 1/n (and it does not matter if you place it as your first, third or last tile)."
 
+# Code stuffs
 Code should run in between 10s and 10 mins depending on how complex your strategy is and what initial board you are using.
 To set an initial board set the values in the initial board array like in the diagonal rule set.
 Then change the number of starting f's, o's, and x's. to match.
